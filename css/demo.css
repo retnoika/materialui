@@ -1,0 +1,34 @@
+/* Material UI Landing Page */
+
+.title {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.title .big {
+	font: 900 90px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -2px;
+	color: #C2185B;
+}
+
+.title .small {
+	font: 200 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #757575;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.title .small a {
+	color: #4DB6AC;
+	line-height: 30px;
+}
+
+.section-title {
+
+}
+
+.panel-title {}
+
+.demo-row {
+	margin-bottom: 20px;
+}
