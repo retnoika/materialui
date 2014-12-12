@@ -1,21 +1,29 @@
 /* Material UI Landing Page */
 
+body {
+	font-family: "robotoregular", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 960px;
+}
+
 .title {
 	margin: 20px 0;
 	text-align: center;
 }
 
 .title .big {
-	font: 900 90px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 900 90px "robotobold", Helvetica, Arial, sans-serif;
 	letter-spacing: -2px;
 	color: #C2185B;
 }
 
 .title .small {
-	font: 200 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 200 20px "robotolight", Helvetica, Arial, sans-serif;
 	color: #757575;
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .title .small a {
@@ -27,6 +35,8 @@
 	font: 700 36px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	letter-spacing: 1px;
 	color: #004D40;
+	border-top: 1px dashed #E0E0E0;
+	padding-top: 50px;
 }
 
 .panel-title {
@@ -36,5 +46,5 @@
 }
 
 .demo-row {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
