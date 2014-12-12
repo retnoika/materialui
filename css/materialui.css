@@ -311,6 +311,15 @@ input[type=text].form-control {
   	box-shadow: none;
 }
 
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #BDBDBD !important;
+  opacity: 1;
+}
+
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
