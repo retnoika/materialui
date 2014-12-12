@@ -24,10 +24,16 @@
 }
 
 .section-title {
-
+	font: 700 36px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	letter-spacing: 1px;
+	color: #004D40;
 }
 
-.panel-title {}
+.panel-title {
+	font: 700 24px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	margin: 20px 0; 
+	color: #004D40;
+}
 
 .demo-row {
 	margin-bottom: 20px;
