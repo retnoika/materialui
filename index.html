@@ -94,20 +94,175 @@
 
       <div class="clearfix"></div>
 
-      <!-- Dropdown, Select, Tags Input -->
+      <!-- Dropdown, Button Groups, Button Dropdown -->
       <div class="row demo-row">
         <div class="col-xs-3">
           <div class="panel-title">Dropdown</div>
+          <div class="dropdown">
+            <button class="btn btn-lg btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="col-xs-3">
-          <div class="panel-title">Select</div>
+        <div class="col-xs-4">
+          <div class="panel-title">Button Groups</div>
+          <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-primary">Middle</button>
+            <button type="button" class="btn btn-primary">Right</button>
+          </div>
         </div>
 
-        <div class="Tags Input">
-          <div class="panel-title">Tags Input</div>
+        <div class="col-xs-5">
+          <div class="panel-title">Button Dropdown</div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Action <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Action <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Action <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
         </div>
       </div> <!-- Dropdonws etc ends here -->
+
+      <div class="clearfix"></div>
+
+      <!-- Input Group & Breadcrumbs -->
+      <div class="row demo-row">
+        <div class="col-xs-6">
+          <div class="panel-title">Input Group</div>
+          <div class="input-group">
+            <span class="input-group-addon glyphicon glyphicon-user"></span>
+            <input type="text" class="form-control" placeholder="Full name">
+          </div>
+          <br>
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">IDR</span>
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon glyphicon glyphicon-usd"></span>
+            <input type="text" class="form-control">
+            <span class="input-group-addon">USD</span>
+          </div>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="panel-title">Breadcrumbs</div>
+          <ol class="breadcrumb">
+            <li class="active">Home</li>
+          </ol>
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Library</li>
+          </ol>
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
+        </div>
+      </div> <!-- Input etc ends here -->
+
+      <div class="clearfix"></div>
+
+      <!-- Navs -->
+      <div class="row demo-row">
+        <div class="col-xs-6">
+          <div class="panel-title">Tabs</div>
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+          <br>
+          <div class="panel-title">Justified</div>
+          <ul class="nav nav-tabs nav-justified">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+          <br>
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6">
+          <div class="panel-title">Pills</div>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+          <br><br>
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+          <br><br>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                Dropdown <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
 
     </div><!-- /.container -->
 
@@ -129,6 +284,8 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/tab.js"></script>
     
   </body>
 </html>
