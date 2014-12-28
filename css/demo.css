@@ -66,6 +66,11 @@ body {
 	color: #00796B;
 }
 
+.panel-title span {
+	font: 300 16px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	padding-top: 10px;
+}
+
 .demo-row {
 	margin-bottom: 40px;
 }
