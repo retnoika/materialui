@@ -288,8 +288,14 @@ fieldset[disabled] .btn-link:focus {
 
 
 /* Input */
+label {
+  font-weight: 200;
+  color: #BDBDBD;
+}
 
-input[type=text].form-control {
+input[type=text].form-control, 
+input[type=email].form-control,
+input[type=password].form-control {
 	border-color: #E91E63;
 	border-bottom: 1px solid;
 	border-top: 0px;
@@ -298,13 +304,19 @@ input[type=text].form-control {
 	border-radius: 0;
 }
 
+.form-group {
+  margin: 40px 0;
+}
+
 .form-control {
+  margin-bottom: 30px;
 	height: 42px;
 	padding: 8px 12px;
 	font-family: "robotolight", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.467;
 	color: #C2185B;
+  background-color: transparent;
 	border-bottom: 1px solid #F06292;
 	box-shadow: none;
 	-webkit-transition: border .05s linear,color .05s linear,background-color .05s linear;
@@ -431,7 +443,7 @@ fieldset[disabled] .form-control {
 
 /* Colored Element */
 .btn-red {
-  
+
 }
 
 /* Dropdown */
@@ -982,10 +994,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* Navigation */
 
 
-/* Checkboxes */
+/* Checkboxes & Radio Buttons */
 
 
-/* Radio Buttons */
 
 
 /* Switches */
